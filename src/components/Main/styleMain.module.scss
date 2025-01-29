@@ -1,13 +1,10 @@
 .main{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: blue;
     height: 100vh;
 
     
 }
-
-
-
 
 .sect{
     width: 100%;
@@ -18,9 +15,28 @@
 }
 
 .section{
-    border: solid green 5px;
+    height: 22vh;
     width: 100%;
     display: flex;
     justify-content: space-around;
+   
+    .article{
+    
+        display: flex;
+        align-items: center;
+        flex-direction: column;    
+    }
 }
-
+.secti{
+    height: 22vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+    .artic{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+}

@@ -67,25 +67,25 @@ export default function Main(){
             {
                 jogos.map((item)=>(
                     
-                    <article>   
+                    <article className={s.article}>   
                         <img src={item.imagem} alt={item.alt} />
-                        <h3>Preço:{item.preço}</h3>
+                        <h3>Preço:  {item.preço}</h3>
                     </article>
                 ))
             }
             </section>
 
-            <section>
+            <section className={s.sect}>
                 <h1>Peças e Periféricos de Pc</h1>
                 <a href="">Ver mais</a>
             </section>
             
-            <section>
+            <section className={s.secti}>
                 {
                     peças.map((item)=>(
-                        <article>
+                        <article className={s.artic}>
                             <img src={item.imagem} alt={item.alt} />
-                            <h3>Preço:{item.preço}</h3>
+                            <h3>Preço:  {item.preço}</h3>
                         </article>
                     ))
                 }

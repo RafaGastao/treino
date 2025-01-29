@@ -3,11 +3,10 @@ import Main from "./components/Main/main"
 import "./globalstyle.scss"
 
 export default function App(){
-  return(
+  return(   
     <>
     <Header/>
     <Main/>
-
     </>
   )
 } 

@@ -1,3 +1,4 @@
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
 import s from './styleHeader.module.scss'
 import imagens from "../../imagens/Controle.png"
 import cd from "../../imagens/Cd.png"
@@ -11,14 +12,15 @@ import perfil from "../../imagens/Perfil.png"
 
 export default function Header(){
     return(
+        <BrowserRouter>
         <header className={s.header}>
         <img  src={imagens} alt="Imagem de um controle" />
             <nav className={s.nave}>
             
              <ul>
-                <li><img src={cd} alt="Imagem de um cd"/> Jogos</li>
-                <li><img src={pc} alt="Imagem de um computador" />Pc</li>
-                <li><img src={xbox} alt="Imagem de um controle" />Consoles</li>
+                <li><Link to='/'><img src={cd} alt="Imagem de um cd" /> Jogos</Link></li>
+                <li><Link to='/'><img src={pc} alt="Imagem de um computador" />Pc</Link></li>
+                <li><Link to='/'><img src={xbox} alt="Imagem de um controle" />Consoles</Link></li>
              </ul>
             </nav>
             <section className={s.sect}>
@@ -31,6 +33,13 @@ export default function Header(){
             <img src={perfil} alt="Imagem para indicar onde clica para ir para o perfil" />
             </section>
         </header>
+        <Routes>
+            <Route path='/'  />
+            <Route path='/'  />
+            <Route path='/' />
+        </Routes>
+
+        </BrowserRouter>
 
     )
 }
