@@ -1,0 +1,45 @@
+.section{
+    border: solid black 5px;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+
+    h1{
+        font-size: 75px;
+    }
+}
+
+.sect{
+    border: solid blue 5px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100%;
+
+    .article{
+        border: solid red 5px;
+        
+        width: 25vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        
+        h3{
+            font-size: 29px;
+            color: blue;
+        }
+    
+    
+        img{
+            height: 35vh;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+
+        
+    }
+}
+}

@@ -4,7 +4,7 @@ import xboxSeries from "../../imagens/XboxSeriesS.png"
 import plasytation1 from "../../imagens/Ps1.png"
 import plasytation5 from "../../imagens/Ps5.png"
 import switch1 from "../../imagens/Switch.png"
-
+import s from './styleConsole.module.scss'
 
 
 
@@ -47,16 +47,16 @@ export default function Console(){
     ]
     return(
         <main>
-            <section>
-                <h1>Consoles</h1>
+            <section className={s.section}>
+                <h1 >Consoles</h1>
             </section>
             
-            <section>
+            <section className={s.sect}>
             {
                 consoles.map((item)=>(
-                    <article>
+                    <article className={s.article}>
                         <img src={item.imagem} alt={item.alt} />
-                        <h3>Preço: {item.preço}</h3>
+                        <h3 >Preço: {item.preço}</h3>
                     </article>
                 ))
             }
