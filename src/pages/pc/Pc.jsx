@@ -14,7 +14,6 @@ import mousePadLogitech from "../../imagens/MousePadLogitech.png"
 import mouseRazer from "../../imagens/MouseRazer.png"
 import mouseRedDragon from "../../imagens/MouseRedDragon.png"
 import tecladoRazer from "../../imagens/TecladoRazer.png"
-import tecladoRedragon from "../../imagens/TecladoRedragon.png"
 import s from './stylePc.module.scss'
 
 
