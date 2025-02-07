@@ -1,17 +1,15 @@
 .section{
-    border: solid black 5px;
     color: blue;
     display: flex;
     justify-content: center;
     height: 10vh;
 
     h1{
-        font-size: 75px;
+        font-size: 40px;
     }
 }
 
 .sect{
-    border: solid blue 5px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -19,8 +17,6 @@
     width: 100%;
 
     .article{
-        border: solid red 5px;
-        
         width: 25vw;
         display: flex;
         align-items: center;

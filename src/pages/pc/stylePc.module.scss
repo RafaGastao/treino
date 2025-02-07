@@ -1,0 +1,50 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: blue;
+}
+.pecas{
+    height: 10vh;
+
+    h1{
+        font-size: 40px; 
+    }
+}
+
+.section{
+    color: blue;
+    height: 100vh;
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+
+
+
+    img{
+        height: 35vh;
+    }
+}
+
+.perife{
+    height: 10vh;
+
+    h1{
+        font-size: 40px
+    }
+}
+.sect{
+    height: 100vh;
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+
+    img{
+        height: 35vh;
+    }
+}

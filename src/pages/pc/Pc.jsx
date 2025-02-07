@@ -15,7 +15,7 @@ import mouseRazer from "../../imagens/MouseRazer.png"
 import mouseRedDragon from "../../imagens/MouseRedDragon.png"
 import tecladoRazer from "../../imagens/TecladoRazer.png"
 import tecladoRedragon from "../../imagens/TecladoRedragon.png"
-
+import s from './stylePc.module.scss'
 
 
 export default function Jogos(){
@@ -111,11 +111,12 @@ export default function Jogos(){
     ]
 
     return(
-        <main>
-            <section>
+        <main className={s.main}>
+            <section className={s.pecas}>
             <h1>Peças </h1>
             </section>
-            <section>
+            
+            <section className={s.section}>
                 {
                     peças.map((item)=>(
                         <article>
@@ -126,10 +127,11 @@ export default function Jogos(){
                 }
             </section>
 
-            <section>
+            <section className={s.perife}>
                 <h1>Periféricos de computador</h1>
             </section>
-            <section>
+
+            <section className={s.sect}>
                 {   
                     perifericos.map((item)=>(
                         <article>
