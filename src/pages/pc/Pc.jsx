@@ -101,11 +101,6 @@ export default function Jogos(){
             imagem: tecladoRazer,
             preço: '325,00',
             alt: 'Teclado Razer mecânico com fio'
-        },
-        {
-            imagem: tecladoRedragon,
-            preço: '225,00',
-            alt: 'Teclado redDragon mecânico com fio'
         }
     ]
 
