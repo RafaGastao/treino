@@ -1,6 +1,6 @@
 import eldenRing from "../../imagens/EldenRing.png"
 import fifa25 from "../../imagens/Fifa25.png"
-import godofWar from "../../imagens/GodofWar.png"
+import godofWar from "../../imagens/Godofwar.png"
 import re2 from "../../imagens/Re2.png"
 import re4 from "../../imagens/Re4.png"
 import re7 from "../../imagens/Re7.png"
