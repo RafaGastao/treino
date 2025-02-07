@@ -1,4 +1,4 @@
-import eldenRing from "../../imagens/Eldenring.png"
+import eldenRing from "../../imagens/EldenRing.png"
 import fifa25 from "../../imagens/Fifa25.png"
 import godofWar from "../../imagens/GodofWar.png"
 import re2 from "../../imagens/Re2.png"
