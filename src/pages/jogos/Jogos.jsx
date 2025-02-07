@@ -12,7 +12,7 @@ import gta from "../../imagens/Gta.png"
 import gtaSa from "../../imagens/GtaSa.png"
 import killZone from "../../imagens/KillZone.png"
 import mario1 from "../../imagens/Mario1.png"
-import supersmashBross from "../../imagens/SuperSmashBross.png"
+import supersmashBross from "../../imagens/SupersmashBross.png"
 import superBomberman from "../../imagens/SuperBomberman.png"
 
 
