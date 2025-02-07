@@ -31,11 +31,6 @@ export default function Jogos(){
             alt: 'Jogo de futebol fifa 25'
         },
         {
-            imagem: godofWar,
-            preço: '150,00',
-            alt: 'Jogo God of War ragnarok'
-        },
-        {
             imagem: re2,
             preço: ' 150,00',
             alt: 'Resident evil 2 remake'
