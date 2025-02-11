@@ -1,6 +1,5 @@
 import eldenRing from "../../imagens/EldenRing.png"
 import fifa25 from "../../imagens/Fifa25.png"
-import godofWar from "../../imagens/Godofwar.png"
 import re2 from "../../imagens/Re2.png"
 import re4 from "../../imagens/Re4.png"
 import re7 from "../../imagens/Re7.png"
@@ -14,7 +13,7 @@ import killZone from "../../imagens/KillZone.png"
 import mario1 from "../../imagens/Mario1.png"
 import supersmashBross from "../../imagens/SupersmashBross.png"
 import superBomberman from "../../imagens/SuperBomberman.png"
-
+import s from './styleJogos.module.scss'
 
 
 
@@ -102,32 +101,32 @@ export default function Jogos(){
 
 
     return(
-        <main>
-        <section>
-            <h1>Jogos para Pc</h1>
-        </section>     
+        <main className={s.main}>
+             <section>
+                <h1 className={s.h1}>Jogos para Pc</h1>
+            </section>     
 
-        <section>
+        <section className={s.section}>
         {
             pc.map((item)=>(
-                <article>
+                <article className={s.article}>
                     <img src={item.imagem} alt={item.alt} />
-                    <h3>Preço: {item.preço}</h3>
+                    <h3 className={s.h3}>Preço: {item.preço}</h3>
                 </article>
             ))
         }
         </section>  
 
         <section>
-            <h1>Jogos para Consoles</h1>
+            <h1 className={s.h11}>Jogos para Consoles</h1>
         </section>
 
-        <section>
+        <section className={s.sect}>
         {
             jc.map((item)=>(
-                <article>
+                <article className={s.arti}>
                     <img src={item.imagem} alt={item.alt} />
-                    <h3>Preço: {item.preço}</h3>
+                    <h3 className={s.h3}>Preço: {item.preço}</h3>
                 </article>
             ))
         }</section>

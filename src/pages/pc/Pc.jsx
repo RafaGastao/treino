@@ -130,7 +130,7 @@ export default function Jogos(){
                     perifericos.map((item)=>(
                         <article>
                             <img src={item.imagem} alt={item.alt}/>
-                            <h3>Preço: {item.preço}</h3>
+                            <h3 className={s.h3}>Preço: {item.preço}</h3>
                         </article>
                     ))
                 }

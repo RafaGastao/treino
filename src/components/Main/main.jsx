@@ -60,7 +60,7 @@ export default function Main(){
         <main className={s.main}>
             <section className={s.sect}>
             <h1>Jogos para Consoles</h1>
-            <a href="">Ver mais</a>
+            <a href="/Jogos">Ver mais</a>
             </section>
         
             <section className={s.section}>
@@ -77,7 +77,7 @@ export default function Main(){
 
             <section className={s.sect}>
                 <h1>Peças e Periféricos de Pc</h1>
-                <a href="">Ver mais</a>
+                <a href="/Pc">Ver mais</a>
             </section>
             
             <section className={s.secti}>
